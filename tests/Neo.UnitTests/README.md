@@ -1,7 +1,7 @@
-NEO Unit Tests
+EpicChain Unit Tests
 ====================
 
-This project is a work in progress, aiming to provide unit test coverage for the core NEO code.
+This project is a work in progress, aiming to provide unit test coverage for the core EpicChain code.
 
 Please note that we are aware that we are not using proper isolation / dependency injection / mocking techniques in these tests. To do that would require larger reworks of the base code which is a change for a later date in discussion with the core team, at the moment we are just aiming to get some basic coverage going.
 
