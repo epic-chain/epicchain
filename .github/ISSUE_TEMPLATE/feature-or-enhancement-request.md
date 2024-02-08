@@ -1,6 +1,6 @@
 ---
 name: Feature or enhancement request
-about: Suggest an idea for Neo
+about: Suggest an idea for EpicChain
 title: ''
 labels: discussion
 assignees: ''
@@ -12,9 +12,9 @@ A summary of the problem you want to solve or metric you want to improve
 **Do you have any solution you want to propose?**
 A clear and concise description of what you expect with this change.
 
-**Neo Version**
-- Neo 2
-- Neo 3
+**EpicChain Version**
+- EpicChain 2
+- EpicChain 3
 
 **Where in the software does this update applies to?**
 - Compiler
