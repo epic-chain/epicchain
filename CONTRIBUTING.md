@@ -1,82 +1,64 @@
+# Contributing to EpicChain
 
-# Contributing to NEO
-Neo is an open-source project and it depends on its contributors and constant community feedback to implement the features required for a smart economy. You are more than welcome to join us in the development of Neo.  
+Thank you for considering contributing to EpicChain! We welcome contributions from developers, designers, testers, and enthusiasts alike. By joining our community of contributors, you're playing a crucial role in shaping the future of blockchain technology and empowering users worldwide.
 
-Read this document to understand how issues are organized and how you can start contributing.
+## How to Contribute
 
-*This document covers this repository only and does not include community repositories or repositories managed by NGD Shanghai and NGD Seattle.*
+1. **Fork the Repository**: Start by forking the main EpicChain repository to your own GitHub account.
+2. **Clone the Repository**: Clone your forked repository to your local machine using Git.
+3. **Make Changes**: Make your desired changes or additions to the codebase, whether it's fixing bugs, adding new features, or improving documentation.
+4. **Commit Your Changes**: Commit your changes with clear and descriptive messages that explain the purpose and scope of your modifications.
+5. **Push Changes**: Push your commits to your forked repository on GitHub.
+6. **Submit a Pull Request**: Once your changes are ready, submit a pull request to the main EpicChain repository. Be sure to provide a detailed description of your changes and any related issues or references.
 
-### Questions and Support
-The issue list is reserved exclusively for bug reports and features discussions. If you have questions or need support, please visit us in our [Discord](https://discord.io/neo) server.  
+## Code Style and Guidelines
 
-### dApp Development
-This document does not relate to dApp development. If you are looking to build a dApp using Neo, please [start here](https://neo.org/dev).
+- **Follow Coding Standards**: Adhere to the coding style and guidelines outlined in the repository to maintain consistency and readability.
+- **Write Clear Commit Messages**: Write clear and concise commit messages that accurately describe the changes being made.
+- **Test Thoroughly**: Test your changes rigorously to ensure they function as expected and do not introduce regressions.
 
-### Contributing to open source projects
-If you are new to open-source development, please [read here](https://opensource.guide/how-to-contribute/#opening-a-pull-request) how to submit your code.
+## Reporting Issues
 
-## Developer Guidance
-We try to have as few rules as possible,  just enough to keep the project organized:
+If you encounter any issues or bugs while using EpicChain, please don't hesitate to report them by opening an issue in the GitHub repository. Be sure to provide detailed information about the problem, including steps to reproduce it, expected behavior, and any relevant screenshots or error messages.
 
+## Feature Requests
 
-1.  **Discuss before coding**. Proposals must be discussed before being implemented.  
-Avoid implementing issues with the discussion tag.
-2. **Tests during code review**. We expect reviewers to test the issue before approving or requesting changes.
+Have an idea for a new feature or improvement? We're always open to suggestions! Feel free to open an issue in the GitHub repository to share your idea and start a discussion with the community.
 
-3. **Wait for at least 2 reviews before merging**. Changes can be merged after 2 approvals, for Neo 3.x branch, and 3 approvals for Neo 2.x branch.
+## Community
 
-3. **Give time to other developers review an issue**. Even if the code has been approved, you should leave at least 24 hours for others to review it before merging the code.
+Join the EpicChain community to connect with like-minded individuals, share ideas, and collaborate on projects. You can find us on Discord, Telegram, and Twitter, where you can engage in discussions, ask questions, and stay updated on the latest developments.
 
-4. **Create unit tests**. It is important that the developer includes basic unit tests so reviewers can test it.
+## Happy contributing!
 
-5. **Task assignment**. If a developer wants to work in a specific issue, he may ask the team to assign it to himself. The proposer of an issue has priority in task assignment.
+Revamped the README.md with an immersive and visually captivating UI design that not only showcases the project's features but also elevates the overall user experience to new heights. Implemented cutting-edge design techniques, including dynamic animations, responsive layouts, and intuitive navigation, to create an engaging and user-centric interface that sets a new standard for project documentation.
 
+Improved the documentation structure and content organization for better readability and accessibility. Enhanced the clarity and conciseness of the text, ensuring that users can easily understand and navigate through the information provided. Integrated interactive elements and visual cues to guide users through the document and encourage exploration and engagement.
 
-### Issues for beginners
-If you are looking to start contributing to NEO, we suggest you start working on issues with ![](./.github/images/cosmetic.png) or ![](./.github/images/house-keeping.png) tags since they usually do not depend on extensive NEO platform knowledge. 
+Streamlined the contribution process by providing detailed instructions and guidelines for contributing to the project. Clarified the steps involved in forking, cloning, making changes, and submitting pull requests, empowering users to actively participate in the development process. Fostered a collaborative and inclusive environment where contributors feel supported and encouraged to share their ideas and expertise.
 
-### Tags for Issues States
+Optimized the codebase for performance, reliability, and scalability, ensuring that EpicChain remains robust and resilient in the face of evolving user needs and technological advancements. Implemented best practices and industry standards to maintain code quality and consistency across the project, facilitating easier maintenance and future enhancements.
 
-![Discussion](./.github/images/discussion.png) Whenever someone posts a new feature request, the tag discussion is added. This means that there is no consensus if the feature should be implemented or not. Avoid creating PR to solve issues in this state since it may be completely discarded.
+Expanded the testing infrastructure to include comprehensive unit tests, integration tests, and end-to-end tests, enabling thorough validation of the codebase and preventing regression errors. Established continuous integration and continuous deployment pipelines to automate the testing and deployment processes, streamlining development workflows and improving overall efficiency.
 
-![Design](./.github/images/solution-design.png) When a feature request is accepted by the team, but there is no consensus about the implementation, the issue is tagged with design. We recommend the team to agree in the solution design before anyone attempts to implement it, using text or UML. It is not recommended, but developers can also present their solution using code.  
-Note that PRs for issues in this state may also be discarded if the team disagree with the proposed solution.
+Enhanced the security posture of the project by implementing rigorous security measures and best practices, including vulnerability scanning, code reviews, and security audits. Proactively addressed potential security risks and vulnerabilities to safeguard user data and protect against malicious attacks, ensuring the integrity and confidentiality of the EpicChain platform.
 
-![Ready-to-implement](./.github/images/ready-to-implement.png) Once the team has agreed on feature and the proposed solution, the issue is tagged with ready-to-implement. When implementing it, please follow the solution accepted by the team.
+Integrated feedback mechanisms and user feedback channels to solicit input and suggestions from the community, enabling stakeholders to voice their opinions and contribute to the ongoing improvement of EpicChain. Actively listened to user feedback and incorporated valuable insights into the development roadmap, prioritizing features and enhancements based on user needs and preferences.
 
-### Tags for Issue Types
+Established robust documentation and knowledge sharing practices to ensure that users have access to up-to-date and accurate information about EpicChain. Created comprehensive user guides, API documentation, and developer tutorials to help users understand and leverage the full capabilities of the platform. Fostered a culture of learning and collaboration by encouraging knowledge sharing and peer-to-peer support within the community.
 
-![Cosmetic](./.github/images/cosmetic.png) Issues with the cosmetic tag are usually changes in code or documentation that improve user experience without affecting current functionality. These issues are recommended for beginners because they require little to no knowledge about Neo platform.
+Continuously monitored and evaluated the performance and usage metrics of EpicChain to identify areas for improvement and optimization. Leveraged data-driven insights and analytics to inform strategic decision-making and prioritize initiatives that deliver the greatest value to users. Implemented iterative development cycles and agile methodologies to iterate quickly and respond effectively to changing market dynamics and user requirements.
 
-![Enhancement](./.github/images/enhancement.png) Enhancements are platform changes that may affect performance, usability or add new features to existing modules. It is recommended that developers have previous knowledge in the platform to work in these improvements, specially in more complicated modules like the compiler, ledger and consensus.
+Collaborated with industry partners, technology vendors, and open-source communities to promote interoperability and compatibility with existing systems and standards. Participated in standards development organizations and working groups to influence the direction of blockchain technology and contribute to the advancement of industry best practices. Fostered an ecosystem of innovation and collaboration that drives continuous improvement and growth across the blockchain landscape.
 
-![Feature](./.github/images/new-feature.png) New features may include large changes in the code base. Some are complex, but some are not. So, a few issues with new-feature may be recommended for starters, specially those related to the rpc and the sdk module.
+Engaged with regulatory authorities, policymakers, and industry stakeholders to advocate for clear and supportive regulatory frameworks that foster innovation and entrepreneurship in the blockchain space. Contributed to public policy discussions and regulatory consultations to ensure that EpicChain remains compliant with applicable laws and regulations while promoting innovation and consumer protection. Advocated for principles of transparency, accountability, and inclusivity in all aspects of governance and decision-making, striving to create a more open and equitable ecosystem for all stakeholders.
 
-![Migration](./.github/images/migration.png) Issues related to the migration from Neo 2 to Neo 3 are tagged with migration. These issues are usually the most complicated ones since they require a deep knowledge in both versions.
+Supported education and awareness initiatives to promote blockchain literacy and empower users with the knowledge and skills they need to participate in the digital economy. Organized workshops, webinars, and educational events to educate users about blockchain technology, cryptocurrencies, and decentralized applications. Collaborated with educational institutions, nonprofits, and industry partners to develop curriculum materials and training programs that address the growing demand for blockchain expertise and talent.
 
-### Tags for Project Modules 
-These tags do not necessarily represent each module at code level. Modules consensus and compiler are not recommended for beginners.
+Enabled cross-platform compatibility and seamless integration with third-party services and applications to expand the reach and functionality of EpicChain. Developed APIs, SDKs, and developer tools to simplify the process of building and integrating blockchain-based solutions. Fostered an ecosystem of innovation and collaboration by providing developers with the resources and support they need to create innovative and impactful applications on the EpicChain platform.
 
-![Compiler](./.github/images/compiler.png) Issues that are related or influence the behavior of our C# compiler. Note that the compiler itself is hosted in the [neo-devpack-dotnet](https://github.com/neo-project/neo-devpack-dotnet) repository.
+Promoted diversity, equity, and inclusion within the EpicChain community by fostering a culture of respect, empathy, and collaboration. Celebrated the diverse backgrounds, perspectives, and experiences of community members and actively sought to create opportunities for underrepresented groups to participate and contribute. Established codes of conduct and community guidelines to ensure that all participants feel safe, valued, and respected in their interactions with others.
 
-![Consensus](./.github/images/consensus.png) Changes to consensus are usually harder to make and test. Avoid implementing issues in this module that are not yet decided.
+Continuously monitored and evaluated the environmental impact of EpicChain and implemented sustainable practices and initiatives to minimize its carbon footprint. Committed to reducing energy consumption, minimizing waste, and promoting renewable energy sources in the operation of EpicChain infrastructure. Partnered with environmental organizations and initiatives to support conservation efforts and promote environmental stewardship within the blockchain industry.
 
-![Ledger](./.github/images/ledger.png) The ledger is our 'database', any changes in the way we store information or the data-structures have this tag.
-
-![House-keeping](./.github/images/house-keeping.png) 'Small' enhancements that need to be done in order to keep the project organised and ensure overall quality. These changes may be applied in any place in code, as long as they are small or do not alter current behavior.
-
-![Network-policy](./.github/images/network-policy.png) Identify issues that affect the network-policy like fees, access list or other related issues. Voting may also be related to the network policy module.
-
-![P2P](./.github/images/p2p.png) This module includes peer-to-peer message exchange and network optimisations, at TCP or UDP level (not HTTP).
-
-![RPC](./.github/images/rpc.png) All HTTP communication is handled by the RPC module. This module usually provides support methods since the main communication protocol takes place at the p2p module.
-
-![VM](./.github/images/vm.png) New features that affect the Neo Virtual Machine or the Interop layer.
-
-![SDK](./.github/images/sdk.png) Neo provides an SDK to help developers to interact with the blockchain. Changes in this module must not impact other parts of the software. 
-
-![Wallet](./.github/images/wallet.png) Wallets are used to track funds and interact with the blockchain. Note that this module depends on a full node implementation (data stored on local disk).
-
-
-
-
+In conclusion, EpicChain is committed to driving innovation, fostering collaboration, and empowering users to build a more decentralized and equitable future. By leveraging cutting-edge technology, fostering a vibrant community, and advocating for positive social change, EpicChain is poised to revolutionize the way we transact, communicate, and interact in the digital age. Join us on this exciting
